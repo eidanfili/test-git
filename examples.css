@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.navigation-wrapper {
+    background-color: #7fc843;
+    color: #cbcbcb;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    Padding: 100px 60px;
+}
+
+.right {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}
+
+.mid {
+    grid-row: 2/4;
+    grid-column: 3/4;
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+}
+
+.left {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+}
